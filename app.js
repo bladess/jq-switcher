@@ -12,8 +12,8 @@ function main(){
 	*/
 	$("button").click(function(){
 		//console.log($(this).data("animal"));
-		var tamer = species[$(this).data("animal")];
-		$('#holder').html("<img src='img/"+tamer+"' alt ='blalabalal'/>");
+		var path = species[$(this).data("animal")];
+		$('#holder').html("<img src='img/"+path+"' alt ='blalabalal'/>");
 	});
 
 	// 1. placez un listener sur le click des éléments <button>
